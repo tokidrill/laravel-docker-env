@@ -24,7 +24,7 @@ services:
     build:
       context: ./docker/mysql
     volumes:
-      - kicky-wiki-data:/var/lib/mysql
+      - db-data:/var/lib/mysql
       - ./docker/mysql/logs:/var/log/mysql
     environment:
       - MYSQL_DATABASE=${MYSQL_DATABASE}
@@ -41,5 +41,5 @@ services:
       - ${MAILHOG_PORT}:8025
 
 volumes:
-  kicky-wiki-data:
+  db-data:
     driver: local
