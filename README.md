@@ -1,7 +1,7 @@
 # How to buildup Laravel Project
 ```
 $ git clone THIS_REPOSITORY
-$ vim .env
+$ sed -e "s/Any/YOUR_PROJECT_NAME/g" .env
 
 $ docker-compose up -d --build
 
