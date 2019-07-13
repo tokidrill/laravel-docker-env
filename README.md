@@ -5,5 +5,5 @@ $ vim .env
 
 $ docker-compose up -d --build
 
-$ docker-compose run composer create-project --prefer-dist "laravel/laravel=5.8.*" .
+$ docker-compose exec app composer create-project --prefer-dist "laravel/laravel=5.8.*" .
 ```
