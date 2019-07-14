@@ -1,4 +1,4 @@
-# How to buildup Laravel Project
+# How To Buildup Laravel Project
 ```
 $ https://github.com/tokidrill/laravel-docker-env.git
 $ sed -e "s/Any/YOUR_PROJECT_NAME/g" .env
